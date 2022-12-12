@@ -21,6 +21,7 @@ for path in os.listdir('images'):
 	}
 	image_dicts.append(d)
 
+
 try:
     os.remove('images.json')
 except OSError:
@@ -29,3 +30,5 @@ with open('images.json', 'w') as j:
 	# obj = json.dumps(image_dicts)
 	# j.write(pprint.pformat(obj))
 	json.dump(image_dicts, j)
+
+print(f"Converted {len(image_dicts)} images")

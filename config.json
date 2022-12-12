@@ -1,4 +1,6 @@
 {
-    "slideTime": 20,
-    "hintTime": 10
+    "slideTime": 60,
+    "hintTime": 60,
+    "fadeInTime": 1.5,
+    "fadeOutTime": 1.5
 }
